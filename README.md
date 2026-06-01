@@ -16,13 +16,13 @@ Tableau 대시보드 구축
 
 까지 수행하였습니다.
 
-프로젝트 목표
+# 프로젝트 목표
 소비자 피해 발생 구조 파악
 판매채널, 계약유형, 품목군별 위험 특성 분석
 피해 발생 가능성이 높은 거래 유형 식별
 위험도 점수화 모델 개발
 시각화를 통한 정책·실무 활용 가능성 제시
-사용 기술
+# 사용 기술
 Data Analysis
 Python
 Pandas
@@ -36,7 +36,7 @@ Statistical Analysis
 Chi-Square Test
 Standardized Residual Analysis
 Logistic Regression (Odds Ratio)
-데이터 구성
+# 데이터 구성
 주요 변수
 변수	설명
 age_group	연령대
@@ -45,7 +45,8 @@ contract_mode	계약유형
 item_group	품목군
 risk_type	위험유형
 regime	코로나 전·후 구분
-분석 프로세스
+
+# 분석 프로세스
 Raw Data
     ↓
 Data Preprocessing
@@ -63,14 +64,14 @@ Risk Scoring
 Tableau Dashboard
 
 
-## 주요 분석 내용
-# 1. 통계 검정
+# 주요 분석 내용
+## 1. 통계 검정
 카이제곱 검정 수행
 판매채널 × 위험유형
 계약유형 × 위험유형
 품목군 × 위험유형
 
-# 2. 표준화 잔차 분석
+## 2. 표준화 잔차 분석
 
 위험 발생에 영향을 크게 미치는
 
@@ -80,7 +81,7 @@ Tableau Dashboard
 
 식별
 
-# 3. 로지스틱 회귀 분석
+## 3. 로지스틱 회귀 분석
 
 Odds Ratio(OR)를 활용하여
 
